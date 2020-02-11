@@ -2,6 +2,12 @@ public class B
 {
     protected int data;
 
+    public B()
+    {
+        //passing 0 as default value
+        this(0);
+    }
+
     public B(int data)
     {
         this.data = data;
